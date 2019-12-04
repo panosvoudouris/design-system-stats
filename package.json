@@ -1,0 +1,29 @@
+{
+  "name": "@panosvoudouris/design-system-stats",
+  "version": "0.0.1",
+  "description": "Collect design system usage stats by scanning code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panosvoudouris/design-system-stats.git"
+  },
+  "author": "Panos Voudouris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/panosvoudouris/design-system-stats/issues"
+  },
+  "homepage": "https://github.com/panosvoudouris/design-system-stats#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^8.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "prettier": "^1.19.1"
+  }
+}
